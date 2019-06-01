@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Карты</title>
+	<link rel="stylesheet" href="main.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+	<main>
+		<div class="cards-wrapper">
+
+			<div class="draggable">
+				<div class="card-block">
+					<div class="card">
+						<div class="side back">
+							<img src="images/card-back.png" alt="">
+						</div>	
+						<div class="side front">
+							<img src="images/ace.png" alt="">
+						</div>
+					</div>		
+				</div>
+			</div>
+			
+			<div class="draggable"> 
+				<div class="card-block">
+					<div class="card">
+						<div class="side back">
+							<img src="images/card-back.png" alt="">
+						</div>	
+						<div class="side front">
+							<img src="images/queen.png" alt="">
+						</div>
+					</div>		
+				</div>
+			</div>
+			
+			<div class="draggable">
+				<div class="card-block">
+					<div class="card">
+						<div class="side back">
+							<img src="images/card-back.png" alt="">
+						</div>	
+						<div class="side front">
+							<img src="images/joker.png" alt="">
+						</div>
+					</div>		
+				</div>
+			</div>
+			
+		</div>
+	</main>
+	
+	<!-- Библиотека jQuery подключена с удаленного сервера -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Библиотека jQuery UI (для перетаскивания элемента методом draggable) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+	<!-- Файл с нашим JS-кодом -->
+	<script src="main.js"></script>
+</body>
+</html>
